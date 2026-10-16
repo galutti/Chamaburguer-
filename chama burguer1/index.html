@@ -142,29 +142,29 @@
         </section>
 
         <!-- Reserva -->
-        <section class="Reserva" id="Reserva">
+        <section class="reserva" id="reserva">
             <h2> Reserve sua mesa</h2>
             <p> Prefere comer no salão? Deixe seus dados que confirmamos por telefone.
             </p>
 
             <form class="reserva-formulario" id="reservarformulario">
 
-                <div class="Linha-Formulario?">
-                    <label for="Nome"> Nome</label>
+                <div class="linha-formulario">
+                    <label for="nome"> Nome</label>
                     <input type="text" id="nome" name="nome" placeholder="seu nome" required>
                 </div>
 
-                <div class="linha-formulario?">
+                <div class="linha-formulario">
                     <label for="telefone">telefone</label>
                     <input type="tel" id="telefone" name="placeholder=" (11)99999-9999 required>
                 </div>
 
-                <div class="Linha-Formulario?">
+                <div class="linha-formulario">
                     <label for="Data"> Data</label>
                     <input type="date" id="data" name="data" required>
                 </div>
 
-                <div class="Linha-formulario">
+                <div class="linha-formulario">
                     <label for="pessoas"> numero de pessoas</label>
                     <select name="pessoas" id="pessoas">
                         <option value="1">1 pessoa</option>
@@ -176,7 +176,7 @@
                 </div>
 
 
-                <div class="Linha- Formulario linha-formulario">
+                <div class="linha-formulario linha-formulario-completa">
                     <label for="mensagem"> oberservações (opicional)</label>
                     <textarea name="Mensagem" id="mensagem" rows="3"
                         placeholder="Alguma preferência ou restrição alimentar"></textarea>
@@ -185,10 +185,11 @@
 
                 <div class="linha-formulario linha formulario-completa">
                     <label for="foto">Foto de referência (opicional)</label>
-                    <input type="File" id=Foto name="foto" accept="image/*">
+                    <input type="file" id=foto name="foto" accept="image/*">
 
                     <img id="fotoprevia" class="foto-previa" alt="previa da imagem selecionada" hidden>
-                    <button type="submit" class="botao botao--primario formulario-enviar"> Confirmar reserva</button>
+                 <button type="submit" class="botao botao-primario formulario-enviar"> Confirmar reserva</button>
+
 
                 </div>
 
@@ -201,7 +202,7 @@
 
         <!--final-->
 
-        <section class="chamda-final" id="pedir">
+        <section class="chamada-final" id="pedir">
             <h2> Bateu a fome?</h2>
             <p>peça pelo delivery ou venha comer no salão-abrimos todos os dias,das 18h à meia-noite.</p>
             <a href="#" class="botao botao-destaque">peça pelo whatsApp</a>
